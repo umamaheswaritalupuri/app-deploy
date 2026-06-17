@@ -1,4 +1,4 @@
-name: app-deploy
+name: deploy-app
 
 on:
   pull_request:
