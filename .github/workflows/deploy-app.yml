@@ -10,9 +10,9 @@ on:
     branches:
       - main
 
-job:
+jobs:
   test:
-    runs on: Ubuntu 
+    runs-on: ubuntu-latest
     steps:
       - name: job1
         runs: echo "Deploying app"
